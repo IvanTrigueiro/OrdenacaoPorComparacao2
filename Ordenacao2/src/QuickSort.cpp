@@ -18,16 +18,16 @@ QuickSort::QuickSort(int *array, int left, int right)
 int QuickSort::particao(int *array, int left, int right)
 {
     int pivo = array[right];
-    int pivoIndex = left;
+    int partIndex = left;
 
     for(int i = left; i < right; i++){
         if(array[i] <= pivo){
-            std::swap(array[i], array[pivoIndex]);
-            pivoIndex++;
+            std::swap(array[i], array[partIndex]);
+            partIndex++;
         }
     }
-    std::swap(array[pivoIndex], array[right]);
-    return pivoIndex;
+    std::swap(array[partIndex], array[right]);
+    return partIndex;
 }
 
 QuickSort::~QuickSort()
