@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1534207093 source:c:\users\ivan\documents\análise de projetos e algoritmos\ordenacaoporcomparacao2\ordenacao2\main.cpp
+	<iostream>
+	"MergeSort.h"
+	"QuickSort.h"
+
+1534205608 c:\users\ivan\documents\análise de projetos e algoritmos\ordenacaoporcomparacao2\ordenacao2\include\mergesort.h
+
+1534205740 source:c:\users\ivan\documents\análise de projetos e algoritmos\ordenacaoporcomparacao2\ordenacao2\src\mergesort.cpp
+	"MergeSort.h"
+
+1534206828 source:c:\users\ivan\documents\análise de projetos e algoritmos\ordenacaoporcomparacao2\ordenacao2\src\quicksort.cpp
+	"QuickSort.h"
+
+1534206837 c:\users\ivan\documents\análise de projetos e algoritmos\ordenacaoporcomparacao2\ordenacao2\include\quicksort.h
+	<algorithm>
+
